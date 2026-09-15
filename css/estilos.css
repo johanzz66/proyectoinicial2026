@@ -52,3 +52,48 @@ h2 {
     border-radius: 1rem;
 
 }
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    margin: 0 2rem;
+    list-style: none;
+}
+.nav-items li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    padding: 1.5rem 0;
+}
+
+.contenedor {
+    margin: 0 auto;
+    width: 120rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    height: 45rem;
+    width: 25rem;
+    flex-basis: calc(25% - 2rem);
+    margin: 2rem;
+}
+
+.card img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mascotas {
+    display: flex;
+    flex-wrap: wrap;
+}
